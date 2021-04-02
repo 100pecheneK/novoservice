@@ -1,0 +1,228 @@
+export const papa = {
+  _type: 'Информация',
+  _documentName: 'papaprinter',
+  _link: 'papa',
+  _sort: 1,
+  title: 'Папа принтер',
+  subtitle: 'Торгово-сервисный центр',
+  logo: '../images/logo/papalogo.jpg',
+  logoAlt: 'Логотип папапринтер',
+  mainH1: 'Ремонт',
+  mainH2: 'Техническое обслуживание',
+  mainShortAddres: 'ТЦ Империал 3 этаж',
+  links: [
+    {
+      type: 'phonenumber',
+      text: '+7 (996) 184 02-10',
+      href: 'tel:+79961840210',
+      icon: 'Phone',
+    },
+    {
+      type: 'email',
+      text: 'mistermihail23@gmail.com',
+      href: 'mailto:mistermihail23@gmail.com',
+      icon: 'Mail',
+    },
+    {
+      type: 'whatsapp',
+      text: '+7 (996) 184 02-10',
+      href: 'https://web.whatsapp.com/send?phone=+79961840210&text=',
+      icon: 'Whatsapp',
+    },
+    {
+      type: 'vk',
+      text: 'ПАПА ПРИНТЕР ВКонтакте',
+      href: 'https://vk.com/papa_novouralsk',
+      icon: 'Vk',
+    },
+  ],
+  timetable: [
+    { day: 'Пн', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Вт', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Ср', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Чт', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Пт', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Сб', from: { h: 11, m: 0 }, to: { h: 18, m: 0 } },
+    { day: 'Вс', from: { h: 11, m: 0 }, to: { h: 18, m: 0 } },
+  ],
+  servicesContacts: ['email', 'whatsapp'],
+  services: [
+    {
+      title: 'Компьютер',
+      subtitle: 'Диагностика и ремонт',
+      subservices: ['Диагностика', 'Ремонт', 'Диагностика и ремонт'],
+      image: '../images/services/papaprinter/pc.jpg',
+      imageAlt: 'Диагностика и ремонт компьютера',
+    },
+    {
+      title: 'Ноутбук',
+      subtitle: 'Диагностика и ремонт',
+      subservices: ['Диагностика', 'Ремонт', 'Диагностика и ремонт'],
+      image: '../images/services/papaprinter/notebook.jpg',
+      imageAlt: 'Диагностика и ремонт ноутбука',
+    },
+    {
+      title: 'Телефон',
+      subtitle:
+        'Диагностика и ремонт, замена экрана и батареи, наклеить стекло или пленку',
+      subservices: [
+        'Диагностика',
+        'Ремонт',
+        'Замена экрана',
+        'Замена батареи',
+        'Наклеить стекло или пленку',
+        'Диагностика и ремонт',
+      ],
+      image: '../images/services/papaprinter/phone.jpg',
+      imageAlt:
+        'Диагностика и ремонт, замена экрана и батареи, наклеить стекло или пленку телефона',
+    },
+    {
+      title: 'Планшет',
+      subtitle:
+        'Диагностика и ремонт, замена экрана и батареи, наклеить стекло или пленку',
+      subservices: [
+        'Диагностика',
+        'Ремонт',
+        'Замена экрана',
+        'Замена батареи',
+        'Наклеить стекло или пленку',
+        'Диагностика и ремонт',
+      ],
+      image: '../images/services/papaprinter/tablet.jpg',
+      imageAlt:
+        'Диагностика и ремонт, замена экрана и батареи, наклеить стекло или пленку планшета',
+    },
+    {
+      title: 'Принтер',
+      subtitle: 'Заправка и ремонт',
+      subservices: [
+        'Срочная заправка картриджей',
+        'Ремонт картриджей',
+        'Ремонт принтеров',
+      ],
+      image: '../images/services/papaprinter/printer.jpg',
+      imageAlt: 'Заправка и ремонт принтера',
+    },
+    {
+      title: 'Офисная техника',
+      subtitle: 'Быстрый и качественный ремонт',
+      subservices: ['Лазерный принтер', 'Сканер', 'Копир', 'МФУ', 'Другое'],
+      image: '../images/services/papaprinter/office.png',
+      imageAlt: 'Быстрый и качественный ремонт офисной техники',
+    },
+  ],
+}
+export const photo = {
+  _type: 'Информация',
+  _documentName: 'photonovik',
+  _link: 'photo',
+  _sort: 2,
+  title: 'Фотоновик',
+  subtitle: 'Печать фото',
+  logo: '../images/logo/photonoviklogo.png',
+  logoAlt: 'Логотип фотоновик',
+  mainH1: 'Печать фото',
+  mainH2: 'Фото на документы',
+  mainShortAddres: 'ТЦ Империал 3 этаж',
+  links: [
+    {
+      text: '+7 (996) 184 02-10',
+      href: 'tel:+79961840210',
+      icon: 'Phone',
+    },
+    {
+      text: 'mistermihail23@gmail.com',
+      href: 'mailto:mistermihail23@gmail.com',
+      icon: 'Mail',
+    },
+    {
+      type: 'vk',
+      text: 'Фотоновик ВКонтакте',
+      href: 'https://vk.com/foto_novouralsk',
+      icon: 'Vk',
+    },
+  ],
+  timetable: [
+    { day: 'Пн', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Вт', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Ср', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Чт', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Пт', from: { h: 10, m: 0 }, to: { h: 19, m: 0 } },
+    { day: 'Сб', from: { h: 11, m: 0 }, to: { h: 18, m: 0 } },
+    { day: 'Вс', from: { h: 11, m: 0 }, to: { h: 18, m: 0 } },
+  ],
+  servicesContacts: ['vk'],
+  services: [
+    {
+      title: 'Печать на кружке',
+      subtitle: 'Отличный подарок себе любимому или коллеге по работе!',
+      image: '../images/services/photonovik/кружка.jpg',
+      imageAlt: 'Печать на кружке',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013486%2Fquery',
+    },
+    {
+      title: 'Печать на футболке',
+      subtitle:
+        'Печать на футболке - не только отличный подарок, но еще отличный способ самовыражения!',
+      image: '../images/services/photonovik/футболка.jpg',
+      imageAlt: 'Печать на футболке',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013485%2Fquery',
+    },
+    {
+      title: 'Печать на подушке',
+      subtitle: 'Классный и полезный сувенир!',
+      image: '../images/services/photonovik/подушка.jpg',
+      imageAlt: 'Печать на подушке',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013483%2Fquery',
+    },
+    {
+      title: 'Печать на коврике для мыши',
+      subtitle: 'Лучший подарок любимому геймеру!',
+      image: '../images/services/photonovik/подушка.jpg',
+      imageAlt: 'Печать на коврике для мыши',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013481%2Fquery',
+    },
+    {
+      title: 'Печать на чехле',
+      subtitle: 'Поможем сделать ваш телефон уникальным!',
+      image: '../images/services/photonovik/чехол.jpg',
+      imageAlt: 'Печать на чехле',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013479%2Fquery',
+    },
+    {
+      title: 'Печать на холсте',
+      subtitle: 'Печатайте лучшие снимки на холсте и помещайте на стену!',
+      image: '../images/services/photonovik/холст.jpg',
+      imageAlt: 'Печать на холсте',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013476%2Fquery',
+    },
+    {
+      title: 'Печать на пазлах',
+      subtitle:
+        'Что подарить на годовщину вашей свадьбы? Или ребенку на день рождения? Несите свое фото! Напечатаем его на пазле!',
+      image: '../images/services/photonovik/пазлы.jpg',
+      imageAlt: 'Печать на пазлах',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013474%2Fquery',
+    },
+    {
+      title: 'Печать на слюнявчике',
+      subtitle:
+        'Что подарить на годовщину вашей свадьбы? Или ребенку на день рождения? Несите свое фото! Напечатаем его на пазле!',
+      image: '../images/services/photonovik/слюнявчик.jpg',
+      imageAlt: 'Печать на слюнявчике',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013471%2Fquery',
+    },
+    {
+      title: 'Печать на брелке',
+      subtitle: 'Печатайте прекрасные сувенирные брелки по поводу и без!',
+      image: '../images/services/photonovik/брелок.jpg',
+      imageAlt: 'Печать на брелке',
+      vk: 'https://vk.com/market-102208648?w=product-102208648_1013469%2Fquery',
+    },
+  ],
+}
+export const settings = {
+  _type: 'Настройки',
+  welcomeTitle: 'Выберите сервис',
+}
